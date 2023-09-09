@@ -43,9 +43,9 @@ jobs:
       uses: Contrast-Security-OSS/contrastscan-action@7352a45d9678ec8a434cf061b07ffb51c1e351a1
       with:
         artifact: mypath/target/myartifact.jar # replace this path with the path to your built artifact
-        apiKey: ${{ CLFm6f1lSG6iGCytl6GxMg1X363xxiOT }}
-        orgId: ${{ fe8efffd-4c3a-44b8-b4e3-742cd00bd659 }}
-        authHeader: ${{ ZXRsaW5AbmNzdS5lZHU6Wko3MFAzRUw2OEJTSExCUw== }}
+        apiKey: CLFm6f1lSG6iGCytl6GxMg1X363xxiOT
+        orgId: fe8efffd-4c3a-44b8-b4e3-742cd00bd659
+        authHeader: ZXRsaW5AbmNzdS5lZHU6Wko3MFAzRUw2OEJTSExCUw==
     #Upload the results to GitHub
     - name: Upload SARIF file
       uses: github/codeql-action/upload-sarif@v2
