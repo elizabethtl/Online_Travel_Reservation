@@ -9,7 +9,7 @@
   "dependencies": {
     "async": "latest",
     "bcrypt": "^1.0.3",
-    "elasticsearch": "^14.0.0",
+    "elasticsearch": "^14.2.2",
     "kafka-node": "^2.2.3",
     "mongodb": "^2.2.33",
     "mongoose": "^4.13.6",
