@@ -13,7 +13,7 @@
     "kafka-node": "^2.2.3",
     "mongodb": "^2.2.33",
     "mongoose": "^4.13.6",
-    "mysql": "^2.15.0"
+    "mysql": "^2.18.1"
   },
   "repository": {
     "type": "git",
